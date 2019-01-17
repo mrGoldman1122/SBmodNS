@@ -1,0 +1,157 @@
+return model =
+  name: 'G-201-G'
+  level: 2
+  model: 1
+  size: 0.75
+  zoom: 1.2
+  specs:
+    shield:
+      capacity: [150,200]
+      reload: [4,6]
+    generator:
+      capacity: [95,125]
+      reload: [20,30]
+    ship:
+      mass: 125
+      speed: [115,135]
+      rotation: [100,125]
+      acceleration: [95,110]
+      dash:
+        rate: 3
+        burst_speed: [165,200]
+        speed: [125,160]
+        acceleration: [70,70]
+        initial_energy: [40,65]
+        energy: [15,25]
+  bodies:
+    detail:
+      section_segments: 12
+      offset:
+        x: 0
+        y: -50
+        z: 0
+      position:
+        x: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+        y: [-60,-60,-55,-30,-50,-42,-30,-15,0,15,30,35,35,10,10,60,70,100,110,150,160,190,192,210,205]
+        z: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      width: [0,10,17,20,25,45,55,60,62,60,57,55,45,35,12,12,17,17,12,12,17,17,15,13,0]
+      height: [0,10,17,20,25,45,55,60,62,60,57,55,45,35,12,12,17,17,12,12,17,17,15,13,0]
+      texture: [7,9,9,2,63,4,2,10,2,4,63,63,3,63,12,63,11,63,12,63,11,4,63,17]
+      propeller: true
+    detail2:
+      section_segments: 6
+      offset:
+        x: 0
+        y: 35
+        z: 0
+      position:
+        x: [0,0,0,0]
+        y: [-30,-15,15,30]
+        z: [0,0,0,0]
+      width: [0,10,10,0]
+      height: [0,25,25,0]
+      texture: [4]
+    detail3:
+      section_segments: 6
+      offset:
+        x: 0
+        y: 125
+        z: 0
+      position:
+        x: [0,0,0,0]
+        y: [-30,-15,15,30]
+        z: [0,0,0,0]
+      width: [0,10,10,0]
+      height: [0,25,25,0]
+      texture: [4]
+    detail4:
+      section_segments: 4
+      offset:
+        x: 0
+        y: 35
+        z: 0
+      position:
+        x: [0,0,0,0]
+        y: [-30,-15,15,30]
+        z: [0,0,0,0]
+      width: [0,25,25,0]
+      height: [0,15,15,0]
+      texture: [4]
+    detail5:
+      section_segments: 4
+      offset:
+        x: 0
+        y: 125
+        z: 0
+      position:
+        x: [0,0,0,0]
+        y: [-30,-15,15,30]
+        z: [0,0,0,0]
+      width: [0,25,25,0]
+      height: [0,15,15,0]
+      texture: [4]
+    detail6:
+      section_segments: 4
+      offset:
+        x: 50
+        y: 40
+        z: 0
+      position:
+        x: [0,0,0,5,5,5]
+        y: [-60,-60,-5,5,150,150]
+        z: [0,0,0,0,0,0]
+      width: [0,3,3,3,2,0]
+      height: [0,3,3,3,2,0]
+      texture: [4]
+    detail7:
+      section_segments: 4
+      offset:
+        x: 0
+        y: 40
+        z: 50
+      position:
+        x: [0,0,0,0,0,0]
+        y: [-60,-60,-5,5,150,150]
+        z: [0,0,0,5,5,5]
+      width: [0,3,3,3,2,0]
+      height: [0,3,3,3,2,0]
+      texture: [4]
+    detail8:
+      section_segments: 4
+      offset:
+        x: 0
+        y: 40
+        z: -50
+      position:
+        x: [0,0,0,0,0,0]
+        y: [-60,-60,-5,5,150,150]
+        z: [0,0,0,-5,-5,-5]
+      width: [0,3,3,3,2,0]
+      height: [0,3,3,3,2,0]
+      texture: [4]
+    detail9:
+      section_segments: 4
+      offset:
+        x: 35
+        y: 40
+        z: -35
+      position:
+        x: [0,0,0,5,5,5]
+        y: [-60,-60,-5,5,150,150]
+        z: [0,0,0,-5,-5,-5]
+      width: [0,3,3,3,2,0]
+      height: [0,3,3,3,2,0]
+      texture: [4]
+    detail10:
+      section_segments: 4
+      offset:
+        x: 35
+        y: 40
+        z: 35
+      position:
+        x: [0,0,0,5,5,5]
+        y: [-60,-60,-5,5,150,150]
+        z: [0,0,0,5,5,5]
+      width: [0,3,3,3,2,0]
+      height: [0,3,3,3,2,0]
+      texture: [4]

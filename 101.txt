@@ -1,0 +1,138 @@
+return model =
+  name: 'Vampire'
+  level: 5
+  model: 8
+  size: 1.8
+  specs:
+    shield:
+      capacity: [350,450]
+      reload: [7,9]
+    generator:
+      capacity: [275,400]
+      reload: [50,90]
+    ship:
+      mass: 350
+      speed: [75,85]
+      rotation: [35,55]
+      acceleration: [80,120]
+  bodies:
+    detail:
+      section_segments: 8
+      offset:
+        x: 0
+        y: 0
+        z: 0
+      position:
+        x: [0,0,0,0,0,0,0,0,0,0,0]
+        y: [-136,-135,-125,-100,-70,-45,-20,20,60,70,71]
+        z: [0,0,0,0,0,0,0,0,0,0,0]
+      width: [0,5,25,35,42,46,45,42,20,5,0]
+      height: [0,5,10,16,18,18,18,16,8,5,0]
+      texture: [2]
+    detail12:
+      section_segments: 8
+      offset:
+        x: 0
+        y: -85
+        z: 8
+      position:
+        x: [0,0,0,0,0]
+        y: [-30,-20,25,65,60]
+        z: [-1,-1,0,2,0]
+      width: [0,17,26,26,0]
+      height: [0,12,16,10,0]
+      propeller: false
+      texture: [7,9,4]
+    detail3:
+      section_segments: 8
+      offset:
+        x: 0
+        y: 0
+        z: 13
+      position:
+        x: [0,0,0,0,0]
+        y: [-50,-45,0,45,50]
+        z: [-12,-12,9,26,26]
+      width: [0,25,25,22,0]
+      height: [0,15,15,15,0]
+      texture: [3]
+    detail4:
+      section_segments: 10
+      angle: 4
+      offset:
+        x: 0
+        y: 30
+        z: 60
+      position:
+        x: [-9,-9,-9,-3,0,-1,-6,-6,-6]
+        y: [-54,-55,-65,-35,10,40,65,70,60]
+        z: [0,0,0,0,0,-1,-6,-10,-10]
+      width: [0,20,30,50,55,50,40,35,0]
+      height: [0,20,30,50,55,50,40,35,0]
+      texture: [3,3,63,4]
+    detail5:
+      section_segments: 8
+      angle: 0
+      offset:
+        x: 0
+        y: 85
+        z: 50
+      position:
+        x: [-6,-6,-3,-2,-2,-3,-8,-8]
+        y: [-43,-40,-30,-2,25,45,66,56]
+        z: [0,0,0,0,0,-5,-12,-12]
+      width: [0,20,25,28,30,29,25,0]
+      height: [0,20,25,28,30,29,25,0]
+      texture: [3,3,3,63,4]
+    detail6:
+      section_segments: 6
+      angle: -5
+      offset:
+        x: 0
+        y: 115
+        z: 40
+      position:
+        x: [-9,-9,-6,-5,-5,-6,-15,-17]
+        y: [-43,-40,-30,-10,15,45,66,67]
+        z: [4,4,4,4,4,-5,-15,-16]
+      width: [0,15,20,17,22,17,10,0]
+      height: [0,15,20,17,22,17,10,0]
+      texture: [2.9,2.9,2.9,2.9,63,3.9]
+    detail7:
+      section_segments: 6
+      offset:
+        x: 40
+        y: -85
+        z: -10
+      position:
+        x: [0,0,0,0,0,0,0]
+        y: [-80,-85,-80,-20,10,40,45]
+        z: [0,0,0,0,0,0,0]
+      width: [0,5,7,10,15,12,0]
+      height: [0,5,7,10,15,12,0]
+      angle: 0
+      laser:
+        damage: [5,6]
+        rate: 4
+        type: 1
+        speed: [160,180]
+        number: 1
+        error: 2.5
+      propeller: false
+      texture: [2.9,63,10,3.9,3.9]
+    detail8:
+      section_segments: 6
+      offset:
+        x: 0
+        y: 85
+        z: -25
+      position:
+        x: [0,0,0,0,0,0,0]
+        y: [-85,-80,-20,-10,10,85,80]
+        z: [0,0,0,0,0,0,0]
+      width: [0,35,35,25,25,25,0]
+      height: [0,23,23,20,15,15,0]
+      angle: 0
+      propeller: true
+      texture: [63,63,63,3.9,15,16.9]
+

@@ -1,0 +1,216 @@
+return model =
+  name: 'Vampire'
+  level: 5
+  model: 8
+  size: 1.8
+  specs:
+    shield:
+      capacity: [350,450]
+      reload: [7,9]
+    generator:
+      capacity: [275,400]
+      reload: [50,90]
+    ship:
+      mass: 350
+      speed: [75,85]
+      rotation: [35,55]
+      acceleration: [80,120]
+  bodies:
+    detail:
+      section_segments: 6
+      offset:
+        x: 0
+        y: -20
+        z: 0
+      position:
+        x: [0,0,0,0,0,0,0,0,0,0,0]
+        y: [-116,-115,-93,-77,-40,10,35,75,185,190]
+        z: [0,0,0,0,0,0,0,0,0,0,0]
+      width: [0,10,20,30,32,28,15,10,5,0]
+      height: [0,2,7,12,12,18,12,5,5,0]
+      texture: [63,63,15,4,3,3,63,8,4]
+    detail2:
+      section_segments: 8
+      offset:
+        x: 0
+        y: -75
+        z: 6
+      position:
+        x: [0,0,0,0,0,0]
+        y: [-20,-15,10,40,50,50]
+        z: [-1,-1,0,0,0,0]
+      width: [0,17,20,20,10,0]
+      height: [0,11,13,13,13,0]
+      propeller: false
+      texture: [7,9,8,63]
+    detail9:
+      section_segments: 6
+      offset:
+        x: 20
+        y: 20
+        z: -20
+      position:
+        x: [0,0,0,0,0,0]
+        y: [-30,-30,-20,0,35,25]
+        z: [0,0,0,0,0,0]
+      width: [0,4,14,18,14,0]
+      height: [0,4,7,12,10,0]
+      propeller: true
+      texture: [63,63,3.9,1.9,16.9]
+    detail10:
+      section_segments: 6
+      offset:
+        x: 80
+        y: -10
+        z: -17
+      position:
+        x: [0,0,0,0,0,0]
+        y: [-30,-30,-20,0,35,25]
+        z: [0,0,0,0,0,0]
+      width: [0,4,14,18,14,0]
+      height: [0,4,7,12,10,0]
+      propeller: true
+      texture: [63,63,3.9,1.9,16.9]
+    detail11:
+      section_segments: 6
+      offset:
+        x: 40
+        y: -50
+        z: -11
+      position:
+        x: [0,0,0,0,0,0]
+        y: [-65,-70,-10,0,20,25]
+        z: [0,0,0,0,0,0]
+      width: [0,3,8,11,9,0]
+      height: [0,3,8,11,9,0]
+      angle: 0
+      laser:
+        damage: [5,6]
+        rate: 4
+        type: 1
+        speed: [160,180]
+        number: 1
+        error: 2.5
+      propeller: false
+      texture: [2.9,1.9,3.9,3.9]
+    detail12:
+      section_segments: 6
+      offset:
+        x: 80
+        y: -10
+        z: -15
+      position:
+        x: [0,0,0,0,0,0]
+        y: [-65,-70,-10,0,20,25]
+        z: [0,0,0,0,0,0]
+      width: [0,3,8,11,9,0]
+      height: [0,3,8,11,9,0]
+      angle: 0
+      laser:
+        damage: [5,6]
+        rate: 4
+        type: 1
+        speed: [160,180]
+        number: 1
+        error: 2.5
+      propeller: false
+      texture: [2.9,1.9,3.9,3.9]
+  wings:
+    detail:
+      length: [20,45,35]
+      width: [40,150,70,20]
+      angle: [0,0,0]
+      position: [40,0,10,0]
+      doubleside: true
+      texture: [8,4]
+      bump:
+        position: 10
+        size: 8
+      offset:
+        x: 0
+        y: -25
+        z: -2
+    detail2:
+      length: [20,45,45]
+      width: [50,170,90,20]
+      angle: [0,0,0]
+      position: [40,0,10,0]
+      doubleside: true
+      texture: [63,15]
+      bump:
+        position: 10
+        size: 8
+      offset:
+        x: 0
+        y: -25
+        z: -5
+    detail3:
+      length: [20,45,35]
+      width: [40,150,70,20]
+      angle: [0,0,0]
+      position: [40,0,10,0]
+      doubleside: true
+      texture: [4]
+      bump:
+        position: 10
+        size: 8
+      offset:
+        x: 0
+        y: -25
+        z: -8
+    detail4:
+      length: [30]
+      width: [50,10]
+      angle: [0]
+      position: [10,0]
+      doubleside: true
+      texture: [63]
+      bump:
+        position: 10
+        size: 10
+      offset:
+        x: 65
+        y: -25
+        z: 0
+    detail5:
+      length: [15,15]
+      width: [40,70,40]
+      angle: [0,0]
+      position: [0,0,0]
+      doubleside: true
+      texture: [3]
+      bump:
+        position: 10
+        size: 10
+      offset:
+        x: 0
+        y: 45
+        z: -10
+    detail6:
+      length: [15,15]
+      width: [20,25,10]
+      angle: [90,90]
+      position: [0,0,0]
+      doubleside: true
+      texture: [2]
+      bump:
+        position: 10
+        size: 10
+      offset:
+        x: 0
+        y: 145
+        z: 0
+    detail7:
+      length: [15,15]
+      width: [20,25,10]
+      angle: [90,90]
+      position: [0,0,0]
+      doubleside: true
+      texture: [2]
+      bump:
+        position: 10
+        size: 10
+      offset:
+        x: 0
+        y: 115
+        z: 0

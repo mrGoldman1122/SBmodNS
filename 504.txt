@@ -1,0 +1,194 @@
+return model =
+  name: 'Vampire'
+  level: 5
+  model: 8
+  size: 1.8
+  specs:
+    shield:
+      capacity: [350,450]
+      reload: [7,9]
+    generator:
+      capacity: [275,400]
+      reload: [50,90]
+    ship:
+      mass: 350
+      speed: [75,85]
+      rotation: [35,55]
+      acceleration: [80,120]
+  bodies:
+    detail:
+      section_segments: 6
+      offset:
+        x: 0
+        y: 5
+        z: 0
+      position:
+        x: [0,0,0,0,0,0,0,0,0,0,0,0]
+        y: [-90,-98,-85,-95,-77,-40,10,35,75,180,190]
+        z: [0,0,0,0,0,0,0,0,0,0,0,0]
+      width: [0,3,9,20,30,30,24,12,5,2,0]
+      height: [0,3,4,7,12,15,15,12,5,2,0]
+      texture: [1,4,12.9,63,10,3,63,4,8,4]
+    detail2:
+      section_segments: 6
+      offset:
+        x: 30
+        y: -130
+        z: 0
+      position:
+        x: [-16,-12,0,0,-2,-12]
+        y: [-12,-10,10,30,45,60]
+        z: [0,0,0,0,0,0]
+      width: [0,3,8,10,10,9]
+      height: [0,2,4,5,5,5]
+      propeller: false
+      texture: [63,63,3.9,3.9,2.9]
+    detail3:
+      section_segments: 6
+      offset:
+        x: 0
+        y: -20
+        z: 10
+      position:
+        x: [0,0,0,0,0,0,0]
+        y: [-51,-50,-40,-28,-13,35,35]
+        z: [0,0,0,0,0,2,2]
+      width: [0,8,15,18,18,18,0]
+      height: [0,2,4,6,8,5,0]
+      propeller: false
+      texture: [6.9,9,9,9,8,3.9]
+    detail4:
+      section_segments: 8
+      offset:
+        x: 31
+        y: -130
+        z: -1
+      position:
+        x: [-16,-12,0,0,-2,-12]
+        y: [-12,-10,10,30,45,60]
+        z: [0,0,0,0,0,0]
+      width: [0,3,8,10,10,9]
+      height: [0,2,4,5,5,5]
+      propeller: false
+      texture: [1]
+    detail5:
+      section_segments: 6
+      offset:
+        x: 69
+        y: -10
+        z: -3
+      position:
+        x: [0,0,0,0,0,0]
+        y: [-65,-70,-10,0,20,25]
+        z: [0,0,0,0,0,0]
+      width: [0,3,8,11,9,0]
+      height: [0,3,8,11,9,0]
+      angle: 0
+      laser:
+        damage: [5,6]
+        rate: 4
+        type: 1
+        speed: [160,180]
+        number: 1
+        error: 2.5
+      propeller: false
+      texture: [2.9,63,3.9,3.9]
+    detail6:
+      section_segments: 6
+      offset:
+        x: 25
+        y: 35
+        z: -15
+      position:
+        x: [0,0,0,0,0,0]
+        y: [-30,-30,-20,0,35,25]
+        z: [0,0,0,0,0,0]
+      width: [0,4,14,18,14,0]
+      height: [0,4,7,12,10,0]
+      propeller: true
+      texture: [63,63,3.9,12.9,16.9]
+  wings:
+    detail:
+      length: [0,32.1]
+      width: [0,20,8]
+      angle: [0,25]
+      position: [9,9,10]
+      doubleside: true
+      texture: [1]
+      bump:
+        position: -50
+        size: 10
+      offset:
+        x: 108
+        y: -3.5
+        z: 23
+    detail2:
+      length: [22,45,48,32]
+      width: [40,150,90,50,20]
+      angle: [30,10,20,25]
+      position: [40,0,-10,0,10]
+      doubleside: true
+      texture: [3,4,3.7,15]
+      bump:
+        position: 10
+        size: 5
+      offset:
+        x: 0
+        y: -9
+        z: -13
+    detail3:
+      length: [8,8]
+      width: [0,40,0]
+      angle: [0,0]
+      position: [0,0,0]
+      doubleside: true
+      texture: [2]
+      bump:
+        position: -50
+        size: 20
+      offset:
+        x: 10
+        y: 50
+        z: -0
+    detail4:
+      length: [0,50,43,20,0]
+      width: [0,10,23,10,5,0]
+      angle: [0,-20,-11,-30,-20]
+      position: [14,14,20,65,53,53]
+      doubleside: true
+      texture: [63]
+      bump:
+        position: 50
+        size: 10
+      offset:
+        x: -108
+        y: -3.5
+        z: 24
+    detail5:
+      length: [0,50,43,20,0]
+      width: [0,10,23,10,5,0]
+      angle: [0,-20,-11,-30,-20]
+      position: [14,14,20,65,53,53]
+      doubleside: true
+      texture: [63]
+      bump:
+        position: 50
+        size: 10
+      offset:
+        x: -108
+        y: -3.5
+        z: 24
+    detail6:
+      length: [0,6,6,6,6,6,0]
+      width: [0,20,22,25,27,24,15,0]
+      angle: [0,3,6,9,12,15,18]
+      position: [0,0,-17,-25,-30,-34,-28,-28]
+      doubleside: true
+      texture: [1]
+      bump:
+        position: -50
+        size: 10
+      offset:
+        x: 28
+        y: -17
+        z: 3
